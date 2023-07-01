@@ -2,27 +2,67 @@
 <html lang="en">
 
 <head>
-    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
-
-    <script type="importmap">
-  {
-    "imports": {
-      "three": "https://unpkg.com/three@v0.152.2/build/three.module.js",
-      "three/addons/": "https://unpkg.com/three@v0.152.2/examples/jsm/"
-    }
-  }
-</script>
-    <meta charset="utf-8">
-    <title>man-do</title>
-    <style>
-        body {
-            margin: 0;
-        }
-    </style>
+  <title>man-do</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-    <script type="module" src="./index.js"></script>
+  <!-- <span id="scrollProgress"></span> -->
+  <main>
+    <div id="intro">
+      <h1>man-do</h1>
+      <h3>Software Developer: Robotics & Computer Vision</h3>
+      <!-- <h4>Robotics</h4>
+    <h4>Computer Vision</h4>
+    <h4>Motion control</h4> -->
+    </div>
+    <section>
+      <h2>Studied Mechatronics Engineering at the Polytechnic University of Tirana</h2>
+    </section>
+    <section>
+      <h2>Current job: Robotics Software Developer</h2>
+      <p>Employed at <a href="https://automationware.it/?lang=en">Automationware srl</a>,
+        working on developing cobots, mobile robots and combinations of both.
+        Tech stack based on ROS/ROS 2, Ethercat.</p>
+    </section>
+
+    <section>
+      <!-- Changing Objects Rotation -->
+      <h2>Changing Objects Rotation</h2>
+      <p>other stuff here</p>
+    </section>
+
+    <!-- <section>
+      <h2>Changing Camera Position</h2>
+      <p>The camera position is now changing</p>
+    </section> -->
+
+    <section>
+      <!-- You are at the bottom -->
+      <h2>My online footprint</h2>
+      <h3>github</h3>
+      <h3>linkedin</h3>
+      <h3>medium</h3>
+      <h3>youtube</h3>
+      <h3></h3>
+    </section>
+  </main>
+  <!-- Import maps polyfill -->
+  <!-- Remove this when import maps will be widely supported -->
+  <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+  <script type="importmap">
+			{
+        "imports": {
+          "three": "https://unpkg.com/three@v0.152.2/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.152.2/examples/jsm/"
+        }
+			}
+		</script>
+
+  <script type="module" src="./index.js"></script>
 </body>
 
 </html>
