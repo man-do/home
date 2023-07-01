@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/man-do/home/issues"
   },
-  "homepage": "https://github.com/man-do/home#readme",
+  "homepage": "https://github.com/man-do/home",
   "dependencies": {
     "browser-sync": "^2.29.3",
     "three": "^0.153.0",

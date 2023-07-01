@@ -18,7 +18,7 @@ let kinematicsTween;
 const tweenParameters = {};
 const loader = new ColladaLoader();
 
-loader.load('./assets/kuka-youbot/kuka-youbot.dae', function (collada) {
+loader.load('./kuka-youbot.dae', function (collada) {
   dae = collada.scene;
   dae.traverse(function (child) {
     if (child.isMesh) {
