@@ -18,7 +18,7 @@
     #child {
       width: 100%;
       height: 100%;
-      overflow-y: scroll;
+      overflow-y: scroll hidden;
       padding-right: 17px;
       /* Increase/decrease this value for cross-browser compatibility */
       box-sizing: content-box;
@@ -44,24 +44,35 @@
       z-index: 99;
       position: absolute;
       justify-content: center;
-      /* text-align: center; */
+      text-align: center;
       pointer-events: none;
       font-size: 5vh;
     }
 
     section {
       min-height: 100vh;
-      max-width: 50%;
+      max-width: 95%;
       padding: 20px;
       font-size: 4vh;
-      text-align: left;
-      z-index: 1;
+      text-align: center;
+      position: relative;
+      z-index: 1000;
+      color: rgb(11, 224, 11);
+    }
+
+    a {
+      position: relative;
+      // z-index: 1000;
+    }
+
+    p {
+      padding: 5%;
     }
 
     #intro {
       min-height: 100vh;
-      padding: 20px;
-      font-size: 4vh;
+      padding: 4vh;
+      font-size: 10vh;
       text-align: center;
     }
 
@@ -81,7 +92,7 @@
         }
 			}
 		</script>
-  <script type="module" crossorigin src="/assets/index-ba94a2cb.js"></script>
+  <script type="module" crossorigin src="/assets/index-0f06c1b9.js"></script>
 </head>
 
 <body>
@@ -90,24 +101,51 @@
     <div id="intro">
       <h1>man-do</h1>
       <h3>Software Developer: Robotics & Computer Vision</h3>
-      <!-- <h4>Robotics</h4>
-    <h4>Computer Vision</h4>
-    <h4>Motion control</h4> -->
     </div>
+
     <section>
       <h2>Studied Mechatronics Engineering at the Polytechnic University of Tirana</h2>
+      <p>Had to stop my studies for a while when I moved to Italy, but then regained and
+        finished my degree. My interests lie on Robotics and Computer Vision and Computer Engineering
+        even though I've studied Mechatronics. I enjoy writing code and solving problems and have become
+        decent in solving simple problems with robots and cameras. Now I'd like to step up and learn
+        more about complex systems, Robotics & CV theory.
+      </p>
     </section>
+
     <section>
       <h2>Current job: Robotics Software Developer</h2>
       <p>Employed at <a href="https://automationware.it/?lang=en">Automationware srl</a>,
         working on developing cobots, mobile robots and combinations of both.
-        Tech stack based on ROS/ROS 2, Ethercat.</p>
+        Tech stack based on ROS/ROS 2, Ethercat. So far the experience has been great, I have had the chance
+        to see and contribute in the building of real robots and projects with some of the biggest robot vendors
+        and robotic solution integrators in Italy. The R&D department at AW is to an extent similar to a small
+        startup inside the organisation and that has allowed me to work on all parts of the robot, which
+        I believe has developed my abilities to understand the all parts of the system.</p>
+    </section>
+
+    <section>
+      <h2>Last jobs: Freelance Software Developer</h2>
+      <p>Completed different small projects mainly in computer vision on upwork with
+        people from all around the world. It was a valuable experience in understanding markets
+        and gained some experience in sales. The focus was always to learn new stuff and not to
+        maximize what I could charge.
+      </p>
     </section>
 
     <section>
       <!-- Changing Objects Rotation -->
       <h2>Skills</h2>
-      <p></p>
+      <h4>Communication</h4>
+      <h4>Leadership</h4>
+      <h4>English (IELTS: 7.5 on CEFR level C1)</h4>
+      <h4>ROS/ ROS 2</h4>
+      <h4>Linux</h4>
+      <h4>Embedded Linux Tools</h4>
+      <h4>C/C++</h4>
+      <h4>Python</h4>
+      <h4>Javascript</h4>
+      <h4>Ethercat</h4>
     </section>
 
     <!-- <section>
@@ -118,12 +156,13 @@
     <section>
       <!-- You are at the bottom -->
       <h2>My online footprint</h2>
-      <h3>github</h3>
-      <h3>linkedin</h3>
-      <h3>medium</h3>
-      <h3>youtube</h3>
-      <h3></h3>
+      <h4><a href="https://automationware.it/?lang=en">github</a></h4>
+      <h4><a href="https://automationware.it/?lang=en">linkedin</a></h4>
+      <h4><a href="https://automationware.it/?lang=en">medium</a></h4>
+      <h4><a href="https://automationware.it/?lang=en">youtube</a></h4>
+      <h4><a href="https://automationware.it/?lang=en">upwork</a></h4>
     </section>
+
   </main>
   <!-- Import maps polyfill -->
   <!-- Remove this when import maps will be widely supported -->
